@@ -1,0 +1,31 @@
+Alex Rowan
+alex.rowan@example.com | +1 202 555 0148
+
+Summary
+Software engineer delivering accessible data products and reliable cloud services. Seven years of engineering experience with cross-functional teams.
+
+Skills
+Python, SQL, JavaScript, TypeScript, React, PostgreSQL, Amazon Web Services, Docker, Git, Agile, CI/CD, communication, unit testing
+
+Experience
+Senior Software Engineer | Fictional Atlas Studio
+January 2022 - December 2025
+• Built Python and PostgreSQL reporting services that reduced processing time by 32%.
+• Led delivery of a React dashboard used by 800 internal customers.
+• Automated testing and CI/CD pipelines, reducing failed deployments by 20%.
+Software Engineer | Fictional Cedar Labs
+January 2019 - December 2021
+• Developed REST APIs and collaborated with design and product teams.
+• Deployed services on AWS using Docker and improved monitoring.
+
+Education
+Bachelor of Science in Computer Science | Fictional Technical College, 2018
+
+Projects
+Accessibility toolkit: built keyboard-friendly React components and documented usage.
+
+Certifications
+AWS Certified Developer — Associate
+
+Languages
+English, Spanish

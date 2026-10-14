@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111216" />
+  <meta name="description" content="Northstar — a private, offline-first resume analyzer." />
+  <title>Northstar — Resume analyzer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="app" class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <div class="brand-name">northstar</div>
+          <div class="brand-caption">career intelligence</div>
+        </div>
+      </div>
+
+      <div class="privacy-pill"><span class="status-dot"></span><span>Local only</span><button class="icon-button tiny" data-action="privacy-info" aria-label="About local processing">i</button></div>
+
+      <nav class="nav-groups">
+        <div class="nav-group">
+          <div class="nav-label">Workspace</div>
+          <button class="nav-item active" data-route="dashboard"><span class="nav-icon" data-icon="grid"></span><span>Dashboard</span></button>
+          <button class="nav-item" data-route="resume"><span class="nav-icon" data-icon="file"></span><span>Resume</span><span class="nav-badge loaded">1</span></button>
+          <button class="nav-item" data-route="job"><span class="nav-icon" data-icon="briefcase"></span><span>Job description</span><span class="nav-badge loaded">1</span></button>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">Insights</div>
+          <button class="nav-item" data-route="analysis"><span class="nav-icon" data-icon="spark"></span><span>Analysis</span></button>
+          <button class="nav-item" data-route="recommendations"><span class="nav-icon" data-icon="check-square"></span><span>Recommendations</span><span class="nav-badge attention">4</span></button>
+          <button class="nav-item" data-route="editor"><span class="nav-icon" data-icon="edit"></span><span>Resume editor</span></button>
+          <button class="nav-item" data-route="comparison"><span class="nav-icon" data-icon="columns"></span><span>Comparison</span></button>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">Library</div>
+          <button class="nav-item" data-route="history"><span class="nav-icon" data-icon="clock"></span><span>History</span></button>
+          <button class="nav-item" data-route="settings"><span class="nav-icon" data-icon="sliders"></span><span>Settings</span></button>
+        </div>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="offline-note"><span class="lock-icon" data-icon="lock"></span><div><strong>Private by design</strong><span>Your documents never leave this device.</span></div></div>
+        <button class="about-link" data-route="about"><span class="nav-icon" data-icon="info"></span>About Northstar <span class="version">v0.1.0</span></button>
+        <div class="profile-row"><div class="avatar">JD</div><div class="profile-copy"><strong>Jordan Davis</strong><span>Personal workspace</span></div><button class="icon-button" aria-label="Open account menu"><span data-icon="more"></span></button></div>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Workspace</span><span class="breadcrumb-sep">/</span><strong id="page-breadcrumb">Dashboard</strong></div>
+        <div class="topbar-actions">
+          <div class="saved-state"><span class="saved-check" data-icon="check"></span><span id="saved-state-label">All changes saved</span></div>
+          <button class="icon-button" data-action="theme" aria-label="Toggle theme"><span data-icon="sun"></span></button>
+          <button class="icon-button" data-action="notifications" aria-label="Notifications"><span data-icon="bell"></span><span class="notification-dot"></span></button>
+          <button class="button button-primary button-compact" data-action="new-analysis"><span data-icon="plus"></span>New analysis</button>
+        </div>
+      </header>
+
+      <main id="main-content" tabindex="-1" class="main-content">
+        <div id="page-view"></div>
+      </main>
+    </div>
+  </div>
+  <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

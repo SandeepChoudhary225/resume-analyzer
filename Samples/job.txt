@@ -1,0 +1,18 @@
+Senior Software Engineer
+Fictional Harbor Systems
+
+Responsibilities
+• Build Python and SQL reporting services.
+• Develop React dashboards with accessible interfaces.
+• Collaborate with design and product teams.
+• Automate testing and improve CI/CD pipelines.
+
+Required qualifications
+• 5+ years of software engineering experience.
+• Python, SQL, React, PostgreSQL, Git, and unit testing.
+• Bachelor's degree in computer science or a related field.
+• Clear communication and collaboration.
+
+Preferred qualifications
+• AWS, Docker, Kubernetes, and Terraform.
+• AWS certification.

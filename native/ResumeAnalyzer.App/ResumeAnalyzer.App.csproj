@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors><AssemblyName>ResumeAnalyzer</AssemblyName><Version>1.0.0</Version><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../ResumeAnalyzer.Domain/ResumeAnalyzer.Domain.csproj" /><ProjectReference Include="../ResumeAnalyzer.Core/ResumeAnalyzer.Core.csproj" /><ProjectReference Include="../ResumeAnalyzer.Documents/ResumeAnalyzer.Documents.csproj" /><ProjectReference Include="../ResumeAnalyzer.Persistence/ResumeAnalyzer.Persistence.csproj" /><ProjectReference Include="../ResumeAnalyzer.Application/ResumeAnalyzer.Application.csproj" /></ItemGroup>
+  <ItemGroup><Content Include="../../Samples/*.txt" Link="Data/Samples/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /></ItemGroup>
+</Project>

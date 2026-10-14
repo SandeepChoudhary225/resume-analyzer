@@ -1,0 +1,8 @@
+.tools/
+**/bin/
+**/obj/
+Release/
+TestResults/
+.omnirush/
+__agent__/
+*.user

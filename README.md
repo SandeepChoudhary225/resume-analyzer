@@ -115,5 +115,4 @@ npm start
 ```
 
 Open `http://127.0.0.1:4173`. The preview uses browser local storage, supports TXT/simple RTF import and TXT export, and does not provide the native binary document adapters. Its fixed seven-weight JavaScript scorer differs from the native six-signal model. Its source-wiring smoke tests are not browser interaction tests.
-#   r e s u m e - a n a l y z e r  
- 
+#
